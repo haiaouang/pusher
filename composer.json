@@ -1,9 +1,10 @@
 {
-    "name": "haoaouang/pusher",
+    "name": "haiaouang/pusher",
     "description": "The Hht Pusher package.",
     "license": "MIT",
     "homepage": "https://github.com/haiaouang/pusher",
     "keywords": ["laravel", "push", "pusher"],
+    "type": "library",
     "support": {
         "issues": "https://github.com/haiaouang/pusher",
         "source": "https://github.com/haiaouang/pusher"
@@ -16,8 +17,8 @@
     ],
     "require": {
         "php": ">=5.5.9",
-	"haoaouang/support": "^1.0.0",
-	"haoaouang/mipush": "^1.0.0"
+	"haiaouang/support": "^1.0.0",
+	"haiaouang/mipush": "^1.0.0"
     },
     "autoload": {
         "psr-4": {
