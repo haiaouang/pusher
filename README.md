@@ -17,6 +17,17 @@
 
 `composer update`
 
+在配置文件中添加 config/app.php
+
+```php
+    'providers' => [
+        /**
+         * 添加供应商
+         */
+        Hht\Pusher\PusherServiceProvider::class,
+    ],
+```
+
 ## 依赖包
 
 * haiaouang/support : https://github.com/haiaouang/support
